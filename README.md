@@ -1,4 +1,4 @@
-# DoguitoPetShop
+# Validação de Formulários com JavaScript - Projeto DoguitoPetShop
 Projeto Criado durante curso Validação de Formulários com JavaScript da Alura
 
 <h2> Página de criação de contas</h2>
