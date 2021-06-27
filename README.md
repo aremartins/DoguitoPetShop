@@ -23,7 +23,7 @@ Projeto Criado durante curso Validação de Formulários com JavaScript da Alura
 
 </p>  
 <p>
-  Para o CEP, foi utilizada uma regex para validar a estrutura digitada e a <strong>API do via CEP</strong> para preencher os campos de endereço automaticamente.
+  Para o CEP, foi utilizada uma regex para validar a estrutura digitada e aprendi a puxar os dados do servidor utilizando a função <strong>fetch api</strong> para completar os campos de endereço ao invés do <strong>xmlhttprequest</strong>. Foi utilizada a <strong>API do via CEP</strong> para preencher os campos de endereço automaticamente.
 
 </p>  
 <p>
