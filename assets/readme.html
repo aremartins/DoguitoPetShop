@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<p>
+    Além das maneiras de validar o formulário pelo HTML através do required , 
+    nesse projeto utilizei uma regex no atributo pattern dos inputs para fazer uma val
+    idação mais fina no campo senha por exemplo, que requere parâmetros específicos para ser validada
+    (como quantidade mínima de caracteres e tipos de caracteres válidos). 
+</p>  
+<p>
+  Foi criada uma função de validação de dados bem genérica, que inclusive poderá ser reaproveitada em outros projetos, para facilitar a reutilização foi utilizado data atributtes. Essa função retorna mensagens de erro quando os campos estão errados ou simplesmente não foram preenchidos.
+
+</p>  
+<p>
+  Para o CPF, como a API da receita federal não é pública, foi utilizado, além da função replace para aceitar separadores eventualmente digitados no input, também uma fórmula matemática para validar se a estrutura digitada do CPF está válida.
+
+</p>  
+<p>
+  Para o CEP, foi utilizada uma regex para validar a estrutura digitada e a API do via CEP para preencher os campos de endereço automaticamente.
+
+</p>  
+<p>
+  No formulário de cadastro  de produtos, reutilizei a função de validação para o campo nome do produto,  e no campo de preço foi utilizada a máscara monetária simple mask money seguindo as instruções do Github do criador da máscara(que inclusive é brasileiro), https://github.com/codermarcos/simple-mask-money.
+
+</p>    
+</body>
+</html>
+
+
+
